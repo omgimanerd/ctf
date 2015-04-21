@@ -1,0 +1,13 @@
+Round Normal Special 60 100
+EchoedVoice Normal Special 40 100
+MudSlap Ground Special 20 100
+
+SkullBash Normal Physical 130 100
+Double-Edge Normal Physical 120 100
+TakeDown Normal Physical 90 85
+BodySlam Normal Physical 85 100
+Strength Normal Physical 80 100
+
+KnockOff Dark Physical 65 100
+RockSmash Fighting Physical 40 100
+FuryCutter Bug Physical 40 95

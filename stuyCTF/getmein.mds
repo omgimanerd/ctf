@@ -1,0 +1,24 @@
+
+System / Starting MDCrack v1.8(3)
+System / Running as C:\Program Files (x86)\mdcrackGUI\MDCrack-sse.exe --algorithm=MD5 --output=C:\Users\Mini\Documents\Code\experimental\stuyCTF\getmein.mds --all -p --minsize 15 --maxsize 15 571580b26c65f306376d4f64e53cb5c7 IDLE 
+System / Charset is: abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+System / Detected processor(s): 8 x INTEL Itanium | MMX | SSE | SSE2 | SSE3
+System / Target hash: 571580b26c65f306376d4f64e53cb5c7
+System / >> Using MD5 cores: maximal candidate/user salt size: 16/54 bytes
+Info   / Press ESC for available runtime shortcuts (Ctrl-c to quit)
+Info   / Thread #1: >> Using Core 2
+Info   / Thread #3: >> Using Core 2
+Info   / Thread #6: >> Using Core 2
+Info   / Thread #0: >> Using Core 2
+Info   / Thread #4: >> Using Core 2
+Info   / Thread #2: >> Using Core 2
+Info   / Thread #7: >> Using Core 2
+Info   / Thread #5: >> Using Core 2
+Info   / Thread #1: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #3: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #6: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #0: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #4: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #2: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #7: Candidate size: 15 ( + user salt: 0 )
+Info   / Thread #5: Candidate size: 15 ( + user salt: 0 ) 
