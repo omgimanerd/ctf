@@ -6,6 +6,7 @@ void this_looks_bad(char* in) {
   int bad = 0;;
   char buf[64];
   strcpy(buf, in);
+  printf("%d\n", bad);
   if (bad == 0x13371337) {
     printf("Oh no! It's not safe! You can read the flag now! Ahhhhhh\n");
     printf("{flag}\n");
