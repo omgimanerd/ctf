@@ -1,0 +1,19 @@
+import sys
+import random
+import string
+
+s = "wpqoihtjfidbnvsfiuegrhoeitjrhypitjeieuhuqywagjszhcdxkcvfjgnbflkhjlyioftijhigdurftyesdfgmkjhoiutgverfdsaqwaqazgvdxhftgyhouhgphftrkejhgsdvfbcgnhj"
+rand20 = lambda : "".join([random.choice(s) for random.choice in range(20)])
+def foo(ples,dank):
+ lower=string.ascii_lowercase
+ changed=lower[dank:]+lower[:dank]
+ temp=string.maketrans(oS,changed)
+ return ples.translate(temp)
+def main(argv):
+ if(len(sys.argv)!=3):
+  sys.exit(rand20())
+ if foo(sys.argv[1],15)==foo("iwtuapvxhgxedqujhrpit", 26):
+  print rand20()
+ else:
+  print rand20()
+main(sys.argv)
