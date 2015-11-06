@@ -17,6 +17,8 @@ def genDescend(numDigits, upperLimit):
     descend = []
     numbers = '0123456789'
     if numDigits != 0:
+        if numDigits == 1:
+            descend.append(0)
         for n in range(10 ** (numDigits - 1), 10 ** numDigits):
             allowed = numbers[:numbers.find(str(upperLimit))]
             for c in str(n):
