@@ -1,0 +1,497 @@
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+Y_^[
+SVWQ
+Y_^[
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+Y_^[
+SVWQ
+Y_^[
+SVWQ
+Y_^[
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+Y_^[
+SVWQ
+SVWQ
+Y_^[
+SVWQ
+Y_^[
+SVWQ
+XZ_^[
+wcex
+Y_^[
+section
+XZ_^[
+SVWQ
+XZ_^[
+_Alproxy
+SVWQ
+SVWQ
+SVWQ
+Y_^[
+_Ptr
+SVWQ
+SVWQ
+XZ_^[
+_Alproxy
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+XZ_^[
+_Lock
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+Y_^[
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+SVWQ
+XZ_^[
+_Eptr
+Y_^[
+SVWQ
+XZ_^[
+2_^[]
+93~G3
+93~AW3
+PRSVW
+_^[ZX
+Y_^[
+$SVW
+Y_^[
+$SVW
+Y_^[
+u!h0
+t.RPQ
+Y_^[
+HjDj
+:csm
+WuPh
+WWhX
+u	_[3
+5Genu
+ineI
+ntel
+invalid stoi argument
+stoi argument out of range
+Message
+Your serial must be 25 characters long.
+Perfect!
+Sorry, that wasn't a valid serial number.
+invalid string position
+string too long
+_Count <= (size_t)(-1) / sizeof (_Ty)
+(_Ptr_user & (_BIG_ALLOCATION_ALIGNMENT - 1)) == 0
+reinterpret_cast<uintptr_t *>(_Ptr_ptr)[-1] == _BIG_ALLOCATION_SENTINEL
+_Ptr_container < _Ptr_user
+2 * sizeof(void *) <= _Ptr_user - _Ptr_container
+_Ptr_user - _Ptr_container <= _NON_USER_SIZE
+_Ptr_container != 0
+_Ptr != 0
+Unknown exception
+bad allocation
+bad array new length
+Stack around the variable '
+' was corrupted.
+The variable '
+' is being used without being initialized.
+The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention.
+A cast to a smaller data type has caused a loss of data.  If this was intentional, you should mask the source of the cast with the appropriate bitmask.  For example:  
+	char c = (i & 0xFF);
+Changing the code in this way will not affect the quality of the resulting optimized code.
+Stack memory was corrupted
+A local variable was used before it was initialized
+Stack memory around _alloca was corrupted
+Unknown Runtime Check Error
+Unknown Filename
+Unknown Module Name
+Run-Time Check Failure #%d - %s
+Stack corrupted near unknown variable
+%.2X 
+Stack area around _alloca memory reserved by this function is corrupted
+Data: <
+Allocation number within this function: 
+Size: 
+Address: 0x
+Stack area around _alloca memory reserved by this function is corrupted
+%s%s%p%s%zd%s%d%s
+%s%s%s%s
+A variable is being used without being initialized.
+Stack pointer corruption
+Cast to smaller type causing loss of data
+Stack memory corruption
+Local variable used before initialization
+Stack around _alloca corrupted
+RegOpenKeyExW
+RegQueryValueExW
+RegCloseKey
+PDBOpenValidate5
+RSDS
+C:\Users\Michael\documents\visual studio 2015\Projects\adoughbee\Debug\adoughbee.pdb
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVtype_info@@
+LoadStringW
+GetMessageA
+TranslateMessage
+DispatchMessageA
+DefWindowProcA
+PostQuitMessage
+RegisterClassExW
+CreateWindowExW
+DestroyWindow
+ShowWindow
+DialogBoxParamA
+EndDialog
+GetDlgItemTextA
+LoadAcceleratorsA
+TranslateAcceleratorA
+UpdateWindow
+BeginPaint
+EndPaint
+MessageBoxA
+LoadCursorA
+LoadIconA
+USER32.dll
+??0_Lockit@std@@QAE@H@Z
+??1_Lockit@std@@QAE@XZ
+?_Debug_message@std@@YAXPB_W0I@Z
+?_Xbad_alloc@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPBD@Z
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+MSVCP140D.dll
+memcpy
+memmove
+_CxxThrowException
+__CxxFrameHandler3
+__telemetry_main_invoke_trigger
+__telemetry_main_return_trigger
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+memset
+_except_handler4_common
+__vcrt_GetModuleFileNameW
+__vcrt_GetModuleHandleW
+__vcrt_LoadLibraryExW
+VCRUNTIME140D.dll
+_invalid_parameter
+_errno
+strlen
+strtol
+_CrtDbgReportW
+_callnewh
+malloc
+_free_dbg
+_CrtDbgReport
+_seh_filter_exe
+_set_app_type
+__setusermatherr
+_configure_wide_argv
+_initialize_wide_environment
+_get_wide_winmain_command_line
+_initterm
+_initterm_e
+exit
+_exit
+_set_fmode
+_cexit
+_c_exit
+_register_thread_local_exe_atexit_callback
+_configthreadlocale
+_set_new_mode
+__p__commode
+__stdio_common_vsprintf_s
+_seh_filter_dll
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_crt_at_quick_exit
+_controlfp_s
+terminate
+_wmakepath_s
+_wsplitpath_s
+wcscpy_s
+ucrtbased.dll
+IsDebuggerPresent
+RaiseException
+MultiByteToWideChar
+WideCharToMultiByte
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+GetStartupInfoW
+GetModuleHandleW
+GetLastError
+HeapAlloc
+HeapFree
+GetProcessHeap
+VirtualQuery
+FreeLibrary
+GetProcAddress
+KERNEL32.dll
+IHDR
+sRGB
+gAMA
+PLTE
+YYYBBB
+ooozzz
+tRNS
+	pHYs
+IDATx^
+>uOy
+:/9v
+S0.s
+{pxq
+S0(t
+{	^<
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+IEND
+IHDR
+sRGB
+gAMA
+	pHYs
+IDATx^
+^@'j
+mbp>
+Bw}r
+yB5.
+a9U~
+#~?c
+uXb 
+_tzc
+|DW%
+{9<<l
+IEND
+IHDR
+sRGB
+gAMA
+PLTE
+YYYBBB
+ooozzz
+tRNS
+	pHYs
+IDATx^
+>uOy
+:/9v
+S0.s
+{pxq
+S0(t
+{	^<
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+=bbK
+XLlP
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+[r,&6
+IEND
+IHDR
+sRGB
+gAMA
+	pHYs
+IDATx^
+^@'j
+mbp>
+Bw}r
+yB5.
+a9U~
+#~?c
+uXb 
+_tzc
+|DW%
+{9<<l
+IEND
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+0-02070=0
+2#22272@2H2c2h2m2s2
+4%4U4d4i4r4z4
+5#5)5@5O5T5]5e5
+6#6(646<6Z6_6d6j6
+8(808K8P8U8[8
+969;9@9F9`9o9t9}9
+: :O;U;
+7F9o9&:O:
+<"=I=N=V=z=
+>1>J>i>w>
+1&1+151f2k2u2
+3h4t4{4
+5!5B5W5
+:8<\<h<
+:&<O<
+4.4J4P4_4
+465]5S7_7o7{7
+8/8T8`8
+9$9*90969<9B9H9N9T9Z9
+<!<2<E<
+= >2>;>D>I>p>u>
+181Z1k1
+3 4V4[4m4
+6%6J6X6^6d6i6n6
+6n7u7
+728c8
+9#:B:Q:q:
+;6;T;k;
+;J<T<
+>L>R>X>^>d>j>q>x>
+0!0'010;0P0U0
+1!1,11171A1s1
+2!2>2d2m2s2
+3$3G3
+6)7A7~7
+:F;Q;^;f;u;
+051R1Y1t1
+2	2L2
+2=3e3w3:4L4e4y4
+6'636?6L6v6Z7
+9#9+90979
+?$?:?D?M?
+&0f0j0
+1"1(1.141:1@1F1L1R1X1^1d1j1p1v1|1
+2$2*20262<2B2H2N2T2
+1=1m1
+1B2u2
+t3x3|3
+;$>0>
+0$0,00080P0h0l0
+:4:@:
+:l;|;
+<D<P<
+= =4=T=X=t=x=
+81\1
