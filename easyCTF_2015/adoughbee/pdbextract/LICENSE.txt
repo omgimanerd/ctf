@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+End-User License Agreement
+
+IMPORTANT!  PLEASE READ CAREFULLY.
+
+THIS END-USER LICENSE AGREEMENT (THE “AGREEMENT”) IS A LEGAL AGREEMENT BETWEEN YOU AND MANDIANT CORPORATION ("MANDIANT"). YOUR USE OF THIS SOFTWARE IMPLIES YOUR CONSENT TO BE BOUND BY THESE TERMS AND CONDITIONS.
+
+Use
+Subject to the terms and conditions of this Agreement, Mandiant hereby grants you a non-exclusive, non-transferable license to install and use the accompanying Mandiant pdbxtract software (the "Software") on an unlimited number of computers. 
+Reproduction and Distribution
+You may copy and distribute the Software, provided that you do not modify the Software or the distribution package (the .MSI, .ZIP or .EXE file as distributed by Mandiant) in any way or otherwise create any derivative works based on or including the Software.  You may not sell the Software or bundle it for redistribution with other software products.  You may not make or distribute copies of the Software for commercial use, whether in conjunction with any third party software or otherwise.  Any copy that you make of the Software, in whole or in part, is the property of Mandiant.  You agree to reproduce and include in their entirety all copyright, trademark and other proprietary rights notices on any copy or any portion thereof of the materials you receive under this Agreement. You agree to provide Mandiant with notice each time you distribute the Software, or, in the event of a widespread distribution, to provide a single notice when you offer the Software for download or otherwise distribute the Software to more than one recipient.
+Reservation of Rights
+Mandiant reserves all rights not expressly granted pursuant to this Agreement. This Agreement is not a sale of the Software, any copies or part thereof, or any other software, and you shall have no title to or ownership in the Software, or any copies or part thereof, regardless of the form on which the original and any copies may exist.  Mandiant reserves the right to offer upgrades to the Software, either for a fee or without cost, at Mandiant’s sole discretion.  Any such upgrades may be subject to their own End-User License Agreements, and may not be copied and distributed except by the terms of those Agreements, if applicable.
+Proprietary Rights
+The Software contains valuable trade secrets of Mandiant.  You agree not to decompile, disassemble, analyze, or otherwise reverse engineer the Software.  The Software is protected by United States and international copyright laws.  The names, marks, brands, logos, designs, trade dress and other designations Mandiant uses in connection with the Software are proprietary to Mandiant.  Except as stated above, this Agreement does not grant you any intellectual property rights in the Software.
+Prohibited Actions
+You agree not to modify, sell, lease, or create derivative works of the Software. You agree not to use the Software for rental or as a part of a commercial time-sharing or service bureau operation.  You may not use the Software for any illegal purpose, and you may not use the Software to access or examine any computer, or data from any computer, that you do not have the unequivocal legal right to access or examine.  
+Disclaimer of Warranties
+YOU AGREE THAT THE SOFTWARE IS PROVIDED TO YOU “AS IS” AND WITHOUT ANY WARRANTIES OR REPRESENTATIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT.  
+Indemnification
+YOU AGREE TO INDEMNIFY Mandiant AND ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES AND AGENTS, AND SHALL HOLD IT HARMLESS AGAINST ANY CLAIMS, LOSSES OR DAMAGES ASSERTED BY ANY ENTITY, WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT, PRODUCT LIABILITY OR OTHERWISE, INCLUDING COURT COSTS AND REASONABLE ATTORNEYS’ FEES, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF, OR ATTEMPTED USE OF, THE SOFTWARE.
+Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, Mandiant SHALL NOT BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OF ANY TYPE ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE SOFTWARE.  Mandiant shall not be liable for any use of the Software, including the access, examination, or modification of data on any computer by the user without unequivocal legal right.  You acknowledge that Mandiant has agreed to make the Software available in reliance on the exclusions and limitations of liability and disclaimers of warranty set forth above and that the same form an essential basis of the bargain between the parties.  
+Export of Products
+You agree that you will not, directly or indirectly, ship, transfer, transmit, export or re-export, or knowingly permit any of the foregoing with respect to the Software, or any technical information about the Software, to any country for which the United States Export Administration Act, any regulation thereunder, or any similar United States law or regulation, requires an export license or other United States Government approval, unless the appropriate export license or approval has been obtained.
+Termination
+You may terminate this Agreement at any time by deleting the Software.  Mandiant may terminate this Agreement at any time by providing you with individual notice, or by posting a notice on its website at Mandiant.com.   When this Agreement terminates or expires, all rights granted to you will cease, and you must immediately destroy or purge from your computer system the Software and all copies in your possession.
+Governing Law and General Provisions
+The Agreement shall be governed by the laws of the Commonwealth of Virginia, excluding the application of its conflict of law rules and the United Nations Convention on Contracts for the International Sale of Goods.  Both parties hereby submit to the exclusive jurisdiction of the Alexandria Circuit Court in Alexandria, Virginia, and the United States District Court for the Eastern District of Virginia.  If any part of any provision of this Agreement shall be invalid or unenforceable, such part shall be deemed to be restated to reflect, as nearly as possible, the original intentions of both of the parties in accordance with applicable law, and the remainder of the Agreement shall remain in full force and effect.  This Agreement may only be modified in a writing signed by an officer of Mandiant.  Mandiant’s failure to enforce or exercise any right or provision of this Agreement shall not constitute a waiver of such right or provision.  This Agreement is the complete and exclusive statement of the agreement between you and Mandiant and supersedes any proposal or prior agreement, oral or written, and any other communications between you and Mandiant relating to the subject matter of this Agreement.
+
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT AND UNDERSTAND IT.
+
+-------------------------------------------------------------------------------
+
+SQLite Copyright
+<http://www.sqlite.org/copyright.html>
+
+SQLite is in the Public Domain
+
+All of the deliverable code in SQLite has been dedicated to the public domain by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+The previous paragraph applies to the deliverable code in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library.
+
+All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects.
+Obtaining An Explicit License To Use SQLite
+
+Even though SQLite is in the public domain and does not require a license, some users want to obtain a license anyway. Some reasons for obtaining a license include:
+
+    * You are using SQLite in a jurisdiction that does not recognize the public domain.
+    * You are using SQLite in a jurisdiction that does not recognize the right of an author to dedicate their work to the public domain.
+    * You want to hold a tangible legal document as evidence that you have the legal right to use and distribute SQLite.
+    * Your legal department tells you that you have to purchase a license.
+
+If you feel like you really have to purchase a license for SQLite, Hwaci, the company that employs the architect and principal developers of SQLite, will sell you one.
+Contributed Code
+
+In order to keep SQLite completely free and unencumbered by copyright, all new contributors to the SQLite code base are asked to dedicate their contributions to the public domain. If you want to send a patch or enhancement for possible inclusion in the SQLite source tree, please accompany the patch with the following statement:
+
+    The author or authors of this code dedicate any and all copyright interest in this code to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this code under copyright law. 
+
+We are not able to accept patches or changes to SQLite that are not accompanied by a statement such as the above. In addition, if you make changes or enhancements as an employee, then a simple statement such as the above is insufficient. You must also send by surface mail a copyright release signed by a company officer. A signed original of the copyright release should be mailed to:
+
+    Hwaci
+    6200 Maple Cove Lane
+    Charlotte, NC 28269
+    USA 
+
+A template copyright release is available in PDF or HTML. You can use this release to make future changes. 
