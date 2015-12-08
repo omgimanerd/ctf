@@ -1,0 +1,90 @@
+// http://md5online.net/
+
+// HINT   |  Only query2[8] has more than one character.
+
+document.getElementById("panel").onclick = function() {
+    document.getElementById("message").innerHTML = "Checking...";
+    setTimeout(function() {
+        try {
+            if (location.search.length != 25) {
+                console.log("Break1");
+                throw Error();
+            }
+            var query = location.search.substring(1).split(/{|}/);
+            console.log(query);
+            if (query[0] != "flag") {
+                console.log("Break2");
+                throw Error();
+            }
+            // flag format: flag{xxxxxxxxxxxxxxxxxx}
+            if (query[2]) {
+                console.log("Break3");
+                throw Error();
+            }
+            var message = ("The " + query[0] + " is a string.").split(" ");
+            var query2 = query[1].split("$");
+            console.log(query2);
+            if (query2[8].split("").map(function(k) { return k.charCodeAt(0); }).reduce(function(y, n) { return y + Math.pow(n ^ 95, 4); }) != 0x2f7b81) {
+                console.log("Break4" + query2[8]);
+                throw Error();
+            }
+            console.log(message);
+            for (var i in message) {
+                console.log(i);
+                if (i) {
+                    var q = message.splice(i, 1).join("");
+                    console.log(q);
+                    console.log(message);
+                    var h = CryptoJS.MD5(message.splice(i + 1).join("") + message.join("%"));
+                    console.log(h);
+                    console.log(message);
+                    var z = h.toString() + h.words.splice(0, 1);
+                    console.log(z);
+                    console.log(message);
+                    break;
+                }
+            }
+            var funcs = [
+                String.fromCharCode,
+                Object.getOwnPropertyNames,
+                function(x) {
+                    return (x == query2[2]) ? 3 : x;
+                },
+                function(c) {
+                    return [ query2[4],
+                             156,
+                             230,
+                             ~~(query2[6].charCodeAt(0) * 2)
+                           ].reduce(c);
+                }
+            ];
+            
+            var m = new MersenneTwister(4744);
+            var string = [
+                (function(n) {
+                    return n.split("").map(funcs[query2[5].charCodeAt(0) ^ 66]).join("") + n.charAt(query2[6].charCodeAt(0) - query2[7].charCodeAt(0));
+                })(Object.getOwnPropertyNames(Array.prototype).sort()[query2[1].charCodeAt(0) - 0x65].substring(0, 6)),
+                funcs[query2[8].charCodeAt(1) - 0x72](
+                    function(m, n) {
+                        return m + (String.fromCharCode(n ^ h.words.splice(0, 1) & 0xff));
+                    }
+                ),
+                [ 181,
+                  78,
+                  28,
+                  query2[0].charCodeAt(0),225, 129 ].map(
+                      function(x) {
+                        return String.fromCharCode(((m.genrand_int32() * Math.sqrt(m.random())) & 0xff) ^ x);
+                    }
+                  ).join("")
+            ].join(String.fromCharCode(query2[3].charCodeAt(0) + 0xF));
+            if (CryptoJS.MD5(string).toString() == "0f957300a52431c2d0de0da9fc7223c9") {v // string == "r3v3rse_th1s_str1ng"
+                document.getElementById("message").innerHTML = "Correct!";
+            } else {
+                throw Error();
+            }
+        } catch (e) {
+            document.getElementById("message").innerHTML = "Nope. :(";
+        }
+    }, 1000);
+};
